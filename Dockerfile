@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-ARG jmeter_version=5.1.1
+ARG jmeter_version=5.2.1
 
 RUN adduser -D jmeter && \
   cd /opt && \
